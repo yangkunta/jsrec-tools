@@ -1,0 +1,757 @@
+{
+  "brokers": [
+    {
+      "id": "b_widh01xf",
+      "name": "永豐",
+      "discount": 0.8,
+      "discountPercent": 0.8
+    },
+    {
+      "id": "b_v33jw0z4",
+      "name": "台新",
+      "discount": 0.72,
+      "discountPercent": 0.72
+    }
+  ],
+  "settings": {
+    "feeRatePct": 0.1425,
+    "taxRatePct": 0.3,
+    "lotSize": 1000
+  },
+  "trades": [
+    {
+      "id": "t_0cx70y2",
+      "brokerName": "台新",
+      "date": "2024-08-02",
+      "side": "BUY",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 89.6,
+      "lots": 6,
+      "shares": 6000,
+      "costNoFee": 537600,
+      "fee": 760.564224,
+      "tax": 0,
+      "totalCost": 538360.564224
+    },
+    {
+      "id": "t_susnhc4",
+      "brokerName": "台新",
+      "date": "2024-08-05",
+      "side": "BUY",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 75.8,
+      "lots": 32,
+      "shares": 32000,
+      "costNoFee": 2425600,
+      "fee": 3431.5933439999994,
+      "tax": 0,
+      "totalCost": 2429031.593344
+    },
+    {
+      "id": "t_sc6pn1w",
+      "brokerName": "台新",
+      "date": "2024-08-09",
+      "side": "SELL",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 85.2,
+      "lots": 26,
+      "shares": 26000,
+      "costNoFee": 2215200,
+      "fee": 3133.9320479999997,
+      "tax": 6645.6,
+      "totalCost": 2205420.467952
+    },
+    {
+      "id": "t_vgzmp0d",
+      "brokerName": "台新",
+      "date": "2024-08-16",
+      "side": "SELL",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 92.3,
+      "lots": 2,
+      "shares": 2000,
+      "costNoFee": 184600,
+      "fee": 261.161004,
+      "tax": 553.8000000000001,
+      "totalCost": 183785.03899600002
+    },
+    {
+      "id": "t_cv3o6ts",
+      "brokerName": "台新",
+      "date": "2024-09-04",
+      "side": "BUY",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 81.75,
+      "lots": 2,
+      "shares": 2000,
+      "costNoFee": 163500,
+      "fee": 231.30998999999997,
+      "tax": 0,
+      "totalCost": 163731.30999
+    },
+    {
+      "id": "t_c9rzq2t",
+      "brokerName": "台新",
+      "date": "2024-09-30",
+      "side": "BUY",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 92.45,
+      "lots": 1,
+      "shares": 1000,
+      "costNoFee": 92450,
+      "fee": 130.792713,
+      "tax": 0,
+      "totalCost": 92580.792713
+    },
+    {
+      "id": "t_951rn1y",
+      "brokerName": "台新",
+      "date": "2024-09-30",
+      "side": "BUY",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 92.5,
+      "lots": 1,
+      "shares": 1000,
+      "costNoFee": 92500,
+      "fee": 130.86344999999997,
+      "tax": 0,
+      "totalCost": 92630.86345
+    },
+    {
+      "id": "t_xy3wdcj",
+      "brokerName": "台新",
+      "date": "2025-01-06",
+      "side": "SELL",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 98,
+      "lots": 2,
+      "shares": 2000,
+      "costNoFee": 196000,
+      "fee": 277.28903999999994,
+      "tax": 588,
+      "totalCost": 195134.71096
+    },
+    {
+      "id": "t_m235kq8",
+      "brokerName": "台新",
+      "date": "2025-02-03",
+      "side": "BUY",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 91.1,
+      "lots": 6,
+      "shares": 6000,
+      "costNoFee": 546600,
+      "fee": 773.2968839999999,
+      "tax": 0,
+      "totalCost": 547373.296884
+    },
+    {
+      "id": "t_zxui618",
+      "brokerName": "台新",
+      "date": "2025-02-12",
+      "side": "SELL",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 98,
+      "lots": 3,
+      "shares": 3000,
+      "costNoFee": 294000,
+      "fee": 415.93355999999994,
+      "tax": 882,
+      "totalCost": 292702.06644
+    },
+    {
+      "id": "t_88luffq",
+      "brokerName": "台新",
+      "date": "2025-02-21",
+      "side": "SELL",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 99.8,
+      "lots": 3,
+      "shares": 3000,
+      "costNoFee": 299400,
+      "fee": 423.5731559999999,
+      "tax": 898.2,
+      "totalCost": 298078.226844
+    },
+    {
+      "id": "t_qo98xg1",
+      "brokerName": "台新",
+      "date": "2025-03-03",
+      "side": "BUY",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 91,
+      "lots": 6,
+      "shares": 6000,
+      "costNoFee": 546000,
+      "fee": 772.4480399999999,
+      "tax": 0,
+      "totalCost": 546772.44804
+    },
+    {
+      "id": "t_bwyn6we",
+      "brokerName": "台新",
+      "date": "2025-03-28",
+      "side": "BUY",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 81.85,
+      "lots": 4,
+      "shares": 4000,
+      "costNoFee": 327400,
+      "fee": 463.18587599999995,
+      "tax": 0,
+      "totalCost": 327863.185876
+    },
+    {
+      "id": "t_gx0vxx1",
+      "brokerName": "台新",
+      "date": "2025-04-16",
+      "side": "BUY",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 63,
+      "lots": 3,
+      "shares": 3000,
+      "costNoFee": 189000,
+      "fee": 267.38586,
+      "tax": 0,
+      "totalCost": 189267.38586
+    },
+    {
+      "id": "t_k79k6xb",
+      "brokerName": "台新",
+      "date": "2025-08-05",
+      "side": "SELL",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 97.1,
+      "lots": 4,
+      "shares": 4000,
+      "costNoFee": 388400,
+      "fee": 549.485016,
+      "tax": 1165.2,
+      "totalCost": 386685.314984
+    },
+    {
+      "id": "t_ki7f4x5",
+      "brokerName": "台新",
+      "date": "2025-08-07",
+      "side": "SELL",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 100.85,
+      "lots": 2,
+      "shares": 2000,
+      "costNoFee": 201700,
+      "fee": 285.353058,
+      "tax": 605.1,
+      "totalCost": 200809.546942
+    },
+    {
+      "id": "t_zk89iwc",
+      "brokerName": "台新",
+      "date": "2025-08-07",
+      "side": "SELL",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 100.8,
+      "lots": 2,
+      "shares": 2000,
+      "costNoFee": 201600,
+      "fee": 285.21158399999996,
+      "tax": 604.8000000000001,
+      "totalCost": 200709.988416
+    },
+    {
+      "id": "t_23v0ker",
+      "brokerName": "台新",
+      "date": "2025-08-27",
+      "side": "SELL",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 104.85,
+      "lots": 5,
+      "shares": 5000,
+      "costNoFee": 524250,
+      "fee": 741.6774449999999,
+      "tax": 1572.75,
+      "totalCost": 521935.572555
+    },
+    {
+      "id": "t_ntjtksh",
+      "brokerName": "台新",
+      "date": "2025-09-04",
+      "side": "SELL",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 103.5,
+      "lots": 2,
+      "shares": 2000,
+      "costNoFee": 207000,
+      "fee": 292.85117999999994,
+      "tax": 621,
+      "totalCost": 206086.14882
+    },
+    {
+      "id": "t_wehcbwz",
+      "brokerName": "台新",
+      "date": "2025-09-09",
+      "side": "SELL",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 107,
+      "lots": 1,
+      "shares": 1000,
+      "costNoFee": 107000,
+      "fee": 151.37717999999998,
+      "tax": 321,
+      "totalCost": 106527.62282
+    },
+    {
+      "id": "t_nlfp85v",
+      "brokerName": "台新",
+      "date": "2025-09-10",
+      "side": "SELL",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 110,
+      "lots": 1,
+      "shares": 1000,
+      "costNoFee": 110000,
+      "fee": 155.6214,
+      "tax": 330,
+      "totalCost": 109514.3786
+    },
+    {
+      "id": "t_gdrawpo",
+      "brokerName": "台新",
+      "date": "2025-09-11",
+      "side": "SELL",
+      "code": "00675L",
+      "name": "富邦加權正二",
+      "price": 113.15,
+      "lots": 1,
+      "shares": 1000,
+      "costNoFee": 113150,
+      "fee": 160.07783099999997,
+      "tax": 339.45,
+      "totalCost": 112650.472169
+    }
+  ],
+  "lastCalc": {
+    "perGroup": [
+      {
+        "brokerName": "台新",
+        "code": "00675L",
+        "name": "富邦加權正二",
+        "realizedPnl": 609558.6878529998,
+        "detail": [
+          {
+            "sellSeq": 3,
+            "sellDate": "2024-08-09",
+            "sellPrice": 85.2,
+            "sellShares": 26000,
+            "pairs": [
+              {
+                "buySeq": 1,
+                "buyDate": "2024-08-02",
+                "buyPrice": 89.6,
+                "usedShares": 6000,
+                "allocCost": 538360.564224,
+                "sellProceeds": 511200,
+                "sellFeePortion": 723.2150879999999,
+                "sellTaxPortion": 1533.6000000000001,
+                "realizedPortion": -29417.379311999946
+              },
+              {
+                "buySeq": 2,
+                "buyDate": "2024-08-05",
+                "buyPrice": 75.8,
+                "usedShares": 20000,
+                "allocCost": 1518144.74584,
+                "sellProceeds": 1704000,
+                "sellFeePortion": 2410.7169599999997,
+                "sellTaxPortion": 5112.000000000001,
+                "realizedPortion": 178332.5371999999
+              }
+            ],
+            "sellFeeTotal": 3133.9320479999997,
+            "sellTaxTotal": 6645.6,
+            "realizedForThisSell": 148915.15788799996,
+            "soldFee": 3133.9320479999997,
+            "soldTax": 6645.6
+          },
+          {
+            "sellSeq": 4,
+            "sellDate": "2024-08-16",
+            "sellPrice": 92.3,
+            "sellShares": 2000,
+            "pairs": [
+              {
+                "buySeq": 2,
+                "buyDate": "2024-08-05",
+                "buyPrice": 75.8,
+                "usedShares": 2000,
+                "allocCost": 151814.474584,
+                "sellProceeds": 184600,
+                "sellFeePortion": 261.161004,
+                "sellTaxPortion": 553.8000000000001,
+                "realizedPortion": 31970.564412000007
+              }
+            ],
+            "sellFeeTotal": 261.161004,
+            "sellTaxTotal": 553.8000000000001,
+            "realizedForThisSell": 31970.564412000007,
+            "soldFee": 261.161004,
+            "soldTax": 553.8000000000001
+          },
+          {
+            "sellSeq": 8,
+            "sellDate": "2025-01-06",
+            "sellPrice": 98,
+            "sellShares": 2000,
+            "pairs": [
+              {
+                "buySeq": 2,
+                "buyDate": "2024-08-05",
+                "buyPrice": 75.8,
+                "usedShares": 2000,
+                "allocCost": 151814.474584,
+                "sellProceeds": 196000,
+                "sellFeePortion": 277.28903999999994,
+                "sellTaxPortion": 588,
+                "realizedPortion": 43320.236375999986
+              }
+            ],
+            "sellFeeTotal": 277.28903999999994,
+            "sellTaxTotal": 588,
+            "realizedForThisSell": 43320.236375999986,
+            "soldFee": 277.28903999999994,
+            "soldTax": 588
+          },
+          {
+            "sellSeq": 10,
+            "sellDate": "2025-02-12",
+            "sellPrice": 98,
+            "sellShares": 3000,
+            "pairs": [
+              {
+                "buySeq": 2,
+                "buyDate": "2024-08-05",
+                "buyPrice": 75.8,
+                "usedShares": 3000,
+                "allocCost": 227721.71187600002,
+                "sellProceeds": 294000,
+                "sellFeePortion": 415.93355999999994,
+                "sellTaxPortion": 882,
+                "realizedPortion": 64980.35456400001
+              }
+            ],
+            "sellFeeTotal": 415.93355999999994,
+            "sellTaxTotal": 882,
+            "realizedForThisSell": 64980.35456400001,
+            "soldFee": 415.93355999999994,
+            "soldTax": 882
+          },
+          {
+            "sellSeq": 11,
+            "sellDate": "2025-02-21",
+            "sellPrice": 99.8,
+            "sellShares": 3000,
+            "pairs": [
+              {
+                "buySeq": 2,
+                "buyDate": "2024-08-05",
+                "buyPrice": 75.8,
+                "usedShares": 3000,
+                "allocCost": 227721.71187600002,
+                "sellProceeds": 299400,
+                "sellFeePortion": 423.5731559999999,
+                "sellTaxPortion": 898.2,
+                "realizedPortion": 70356.51496799997
+              }
+            ],
+            "sellFeeTotal": 423.5731559999999,
+            "sellTaxTotal": 898.2,
+            "realizedForThisSell": 70356.51496799997,
+            "soldFee": 423.5731559999999,
+            "soldTax": 898.2
+          },
+          {
+            "sellSeq": 15,
+            "sellDate": "2025-08-05",
+            "sellPrice": 97.1,
+            "sellShares": 4000,
+            "pairs": [
+              {
+                "buySeq": 2,
+                "buyDate": "2024-08-05",
+                "buyPrice": 75.8,
+                "usedShares": 2000,
+                "allocCost": 151814.474584,
+                "sellProceeds": 194200,
+                "sellFeePortion": 274.742508,
+                "sellTaxPortion": 582.6,
+                "realizedPortion": 41528.18290799999
+              },
+              {
+                "buySeq": 5,
+                "buyDate": "2024-09-04",
+                "buyPrice": 81.75,
+                "usedShares": 2000,
+                "allocCost": 163731.30999,
+                "sellProceeds": 194200,
+                "sellFeePortion": 274.742508,
+                "sellTaxPortion": 582.6,
+                "realizedPortion": 29611.34750199999
+              }
+            ],
+            "sellFeeTotal": 549.485016,
+            "sellTaxTotal": 1165.2,
+            "realizedForThisSell": 71139.53040999998,
+            "soldFee": 549.485016,
+            "soldTax": 1165.2
+          },
+          {
+            "sellSeq": 16,
+            "sellDate": "2025-08-07",
+            "sellPrice": 100.85,
+            "sellShares": 2000,
+            "pairs": [
+              {
+                "buySeq": 6,
+                "buyDate": "2024-09-30",
+                "buyPrice": 92.45,
+                "usedShares": 1000,
+                "allocCost": 92580.792713,
+                "sellProceeds": 100850,
+                "sellFeePortion": 142.676529,
+                "sellTaxPortion": 302.55,
+                "realizedPortion": 7823.980757999991
+              },
+              {
+                "buySeq": 7,
+                "buyDate": "2024-09-30",
+                "buyPrice": 92.5,
+                "usedShares": 1000,
+                "allocCost": 92630.86345,
+                "sellProceeds": 100850,
+                "sellFeePortion": 142.676529,
+                "sellTaxPortion": 302.55,
+                "realizedPortion": 7773.910020999989
+              }
+            ],
+            "sellFeeTotal": 285.353058,
+            "sellTaxTotal": 605.1,
+            "realizedForThisSell": 15597.89077899998,
+            "soldFee": 285.353058,
+            "soldTax": 605.1
+          },
+          {
+            "sellSeq": 17,
+            "sellDate": "2025-08-07",
+            "sellPrice": 100.8,
+            "sellShares": 2000,
+            "pairs": [
+              {
+                "buySeq": 9,
+                "buyDate": "2025-02-03",
+                "buyPrice": 91.1,
+                "usedShares": 2000,
+                "allocCost": 182457.76562799996,
+                "sellProceeds": 201600,
+                "sellFeePortion": 285.21158399999996,
+                "sellTaxPortion": 604.8000000000001,
+                "realizedPortion": 18252.222788000043
+              }
+            ],
+            "sellFeeTotal": 285.21158399999996,
+            "sellTaxTotal": 604.8000000000001,
+            "realizedForThisSell": 18252.222788000043,
+            "soldFee": 285.21158399999996,
+            "soldTax": 604.8000000000001
+          },
+          {
+            "sellSeq": 18,
+            "sellDate": "2025-08-27",
+            "sellPrice": 104.85,
+            "sellShares": 5000,
+            "pairs": [
+              {
+                "buySeq": 9,
+                "buyDate": "2025-02-03",
+                "buyPrice": 91.1,
+                "usedShares": 4000,
+                "allocCost": 364915.53125599993,
+                "sellProceeds": 419400,
+                "sellFeePortion": 593.341956,
+                "sellTaxPortion": 1258.2,
+                "realizedPortion": 52632.92678800004
+              },
+              {
+                "buySeq": 12,
+                "buyDate": "2025-03-03",
+                "buyPrice": 91,
+                "usedShares": 1000,
+                "allocCost": 91128.74134000001,
+                "sellProceeds": 104850,
+                "sellFeePortion": 148.335489,
+                "sellTaxPortion": 314.55,
+                "realizedPortion": 13258.373170999985
+              }
+            ],
+            "sellFeeTotal": 741.6774449999999,
+            "sellTaxTotal": 1572.75,
+            "realizedForThisSell": 65891.29995900003,
+            "soldFee": 741.6774449999999,
+            "soldTax": 1572.75
+          },
+          {
+            "sellSeq": 19,
+            "sellDate": "2025-09-04",
+            "sellPrice": 103.5,
+            "sellShares": 2000,
+            "pairs": [
+              {
+                "buySeq": 12,
+                "buyDate": "2025-03-03",
+                "buyPrice": 91,
+                "usedShares": 2000,
+                "allocCost": 182257.48268000002,
+                "sellProceeds": 207000,
+                "sellFeePortion": 292.85117999999994,
+                "sellTaxPortion": 621,
+                "realizedPortion": 23828.666139999987
+              }
+            ],
+            "sellFeeTotal": 292.85117999999994,
+            "sellTaxTotal": 621,
+            "realizedForThisSell": 23828.666139999987,
+            "soldFee": 292.85117999999994,
+            "soldTax": 621
+          },
+          {
+            "sellSeq": 20,
+            "sellDate": "2025-09-09",
+            "sellPrice": 107,
+            "sellShares": 1000,
+            "pairs": [
+              {
+                "buySeq": 12,
+                "buyDate": "2025-03-03",
+                "buyPrice": 91,
+                "usedShares": 1000,
+                "allocCost": 91128.74134000001,
+                "sellProceeds": 107000,
+                "sellFeePortion": 151.37717999999998,
+                "sellTaxPortion": 321,
+                "realizedPortion": 15398.881479999996
+              }
+            ],
+            "sellFeeTotal": 151.37717999999998,
+            "sellTaxTotal": 321,
+            "realizedForThisSell": 15398.881479999996,
+            "soldFee": 151.37717999999998,
+            "soldTax": 321
+          },
+          {
+            "sellSeq": 21,
+            "sellDate": "2025-09-10",
+            "sellPrice": 110,
+            "sellShares": 1000,
+            "pairs": [
+              {
+                "buySeq": 12,
+                "buyDate": "2025-03-03",
+                "buyPrice": 91,
+                "usedShares": 1000,
+                "allocCost": 91128.74134000001,
+                "sellProceeds": 110000,
+                "sellFeePortion": 155.6214,
+                "sellTaxPortion": 330,
+                "realizedPortion": 18385.63725999999
+              }
+            ],
+            "sellFeeTotal": 155.6214,
+            "sellTaxTotal": 330,
+            "realizedForThisSell": 18385.63725999999,
+            "soldFee": 155.6214,
+            "soldTax": 330
+          },
+          {
+            "sellSeq": 22,
+            "sellDate": "2025-09-11",
+            "sellPrice": 113.15,
+            "sellShares": 1000,
+            "pairs": [
+              {
+                "buySeq": 12,
+                "buyDate": "2025-03-03",
+                "buyPrice": 91,
+                "usedShares": 1000,
+                "allocCost": 91128.74134000001,
+                "sellProceeds": 113150,
+                "sellFeePortion": 160.07783099999997,
+                "sellTaxPortion": 339.45,
+                "realizedPortion": 21521.730828999993
+              }
+            ],
+            "sellFeeTotal": 160.07783099999997,
+            "sellTaxTotal": 339.45,
+            "realizedForThisSell": 21521.730828999993,
+            "soldFee": 160.07783099999997,
+            "soldTax": 339.45
+          }
+        ],
+        "shareDetailRows": [
+          {
+            "seq": 13,
+            "sharesTotal": 4000,
+            "remain": 4000,
+            "totalCostIncludesFees": 327863.185876,
+            "price": 81.85,
+            "date": "2025-03-28"
+          },
+          {
+            "seq": 14,
+            "sharesTotal": 3000,
+            "remain": 3000,
+            "totalCostIncludesFees": 189267.38586,
+            "price": 63,
+            "date": "2025-04-16"
+          }
+        ],
+        "sharesLeft": 7000,
+        "avgCost": 73.87579596228572
+      }
+    ],
+    "combined": [
+      {
+        "code": "00675L",
+        "realizedPnl": 609558.6878529998
+      }
+    ],
+    "inventory": [
+      {
+        "brokerName": "台新",
+        "code": "00675L",
+        "name": "富邦加權正二",
+        "sharesLeft": 7000,
+        "avgCost": 73.87579596228572
+      }
+    ]
+  },
+  "exportedAt": "2025-09-26T17:47:07.089Z"
+}

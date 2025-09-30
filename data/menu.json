@@ -1,0 +1,31 @@
+[
+  {
+    "title": "首頁",
+    "children": [
+      { "name": "選單", "url": "../index.html" }
+    ]
+  },  
+  {
+    "title": "股票應用",
+    "children": [
+      { "name": "權正二", "url": "SR/SR-V7.html" },
+      { "name": "權正二Fb", "url": "SR/SR-V8-Firebase.html" },
+      { "name": "布正二", "url": "SR/SR-V9.html" }
+    ]
+  },
+  {
+    "title": "成本計算",
+    "children": [
+      { "name": "代數", "url": "math_algebra.html" },
+      { "name": "幾何", "url": "math_geometry.html" }
+    ]
+  },
+  {
+    "title": "其他待開發",
+    "children": [
+      { "name": "待開發", "url": "earth.html" },
+      { "name": "待開發2", "url": "physics.html" }
+    ]
+  }
+]
+

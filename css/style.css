@@ -1,0 +1,17 @@
+/* 全站通用樣式 */
+body {
+  margin: 0;
+  font-family: "Microsoft JhengHei", sans-serif;
+  background: #f5fafa;
+  color: #333;
+}
+
+main {
+  margin-left: 240px;
+  padding: 20px;
+  transition: margin-left 0.3s;
+}
+
+body.collapsed main {
+  margin-left: 60px;
+}

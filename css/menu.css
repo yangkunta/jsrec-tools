@@ -1,0 +1,163 @@
+/* Tiffany Blue 色系 */
+:root {
+  --tiffany-blue: #0abab5;
+  --tiffany-dark: #08928f;
+  --tiffany-light: #e6f8f7;
+  --text-dark: #333;
+  --text-light: #fff;
+  --bg-light: #ffffff;
+  --bg-dark: #2c3e50;
+}
+
+/* 主題模式 */
+body[data-theme="light"] {
+  --bg: var(--bg-light);
+  --text: var(--text-dark);
+}
+body[data-theme="dark"] {
+  --bg: var(--bg-dark);
+  --text: var(--text-light);
+}
+
+/* 側邊欄 */
+.sidebar {
+  width: 240px;
+  background: var(--tiffany-blue);
+  color: var(--text-light);
+  height: 100vh;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  transition: width 0.3s;
+  font-family: "Microsoft JhengHei", sans-serif;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+/* 收合 */
+body.sidebar-collapsed .sidebar {
+  width: 60px;
+}
+body.sidebar-collapsed .menu-title,
+body.sidebar-collapsed .submenu,
+body.sidebar-collapsed .menu-logo,
+body.sidebar-collapsed .menu-search {
+  display: none;
+}
+
+/* 頂部區 */
+.menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+#toggle-btn, #theme-toggle {
+  background: var(--tiffany-dark);
+  color: var(--text-light);
+  border: none;
+  font-size: 18px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#toggle-btn:hover, #theme-toggle:hover {
+  background: #066b69;
+}
+.menu-logo {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* 搜尋框 */
+.menu-search {
+  margin: 8px;
+}
+.menu-search input {
+  width: 100%;
+  padding: 6px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+/* 選單 */
+.menu-title {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  background: var(--tiffany-dark);
+  margin-top: 5px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.menu-title:hover {
+  background: #066b69;
+}
+.submenu {
+  list-style: none;
+  padding-left: 15px;
+  display: none;
+  margin: 0;
+}
+.submenu.open {
+  display: block;
+  background: var(--tiffany-light);
+  border-radius: 4px;
+  margin-top: 4px;
+  padding: 4px 8px;
+}
+.submenu li {
+  margin: 6px 0;
+}
+.submenu li a {
+  color: var(--text-dark);
+  text-decoration: none;
+  padding: 4px 6px;
+  display: block;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.submenu li a:hover {
+  background: var(--tiffany-blue);
+  color: var(--text-light);
+}
+.submenu li a.active {
+  background: var(--tiffany-dark);
+  color: var(--text-light);
+  font-weight: bold;
+}
+
+/* 浮動收合鍵 */
+#float-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--tiffany-blue);
+  color: var(--text-light);
+  border: none;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  font-size: 18px;
+  z-index: 1100;
+}
+#float-toggle:hover {
+  background: var(--tiffany-dark);
+}
+
+/* 響應式 (手機版) */
+@media (max-width: 768px) {
+  .sidebar {
+    left: -240px;
+  }
+  body.sidebar-open .sidebar {
+    left: 0;
+  }
+  body.sidebar-collapsed .sidebar {
+    width: 240px; /* 手機收合時還是隱藏 */
+  }
+}
