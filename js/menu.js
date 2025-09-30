@@ -1,5 +1,5 @@
 async function loadSidebar() {
-  const res = await fetch("menu.json");
+  const res = await fetch("/menu.json");
   const menuData = await res.json();
 
   const sidebar = document.getElementById("sidebar");
