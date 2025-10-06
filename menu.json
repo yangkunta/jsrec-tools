@@ -8,9 +8,9 @@
   {
     "title": "股票應用",
     "children": [
-      { "name": "權正二", "url": "SR/SR-V7.html" },
-      { "name": "權正二Fb", "url": "SR/SR-V8-Firebase.html" },
-      { "name": "布正二", "url": "SR/SR-V9.html" }
+      { "name": "雲端多人版 (V9)", "url": "SR/SR-V9.html" },
+      { "name": "本機版 (V7)", "url": "SR/SR-V7.html" },
+      { "name": "Firebase版 (V8)", "url": "SR/SR-V8-Firebase.html" }
     ]
   },
   {
