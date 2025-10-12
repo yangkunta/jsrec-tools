@@ -1,2 +1,3 @@
 # jsrec-tools
-前端應用工具程式
+記錄股票買責及分析均價
+使用supabase db 
